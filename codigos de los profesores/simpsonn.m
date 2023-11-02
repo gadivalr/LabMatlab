@@ -1,10 +1,10 @@
-function I = simpson(a,b,f,N)
+function I = simpsonn(a,b,f,N)
 
 % Esta funcion calcula la aproximacion a la integral entre a y b de la
 % funcion f usando la regla compuesta de simpson con N subintervalos.
 
 % longitud de los subintervalos
-h = (b-a)/N;
+h = (b-a)/2N;
 
 % Particion de [a,b]
 x = a:h:b; % punto_inicial:incremento:punto_final
